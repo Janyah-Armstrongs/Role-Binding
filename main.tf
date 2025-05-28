@@ -1,5 +1,5 @@
 resource "aws_iam_role" "ec2_role" {
-  name = var.role_name
+  name = var.role_name   # Uses a variable for the role name
 
 
   assume_role_policy = jsonencode({
@@ -23,7 +23,7 @@ resource "aws_iam_role_policy" "basic_policy" {
     Version = "2012-10-17"
     Statement = [{
       Effect   = "Allow"
-      Action   = ["s3:getObject"]
+      Action   = ["s3:getObject"]  # Allows read access to S3 objects
       Resource = "*"
     }]
   })

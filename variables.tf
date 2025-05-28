@@ -3,6 +3,6 @@ variable "region" {
 }
 
 variable "role_name" {
-  default = "ec2-test-binding-access-role"
+  default = "ec2-test-binding-access-role" # Custom Name for EC2 IAM role
 }
 
