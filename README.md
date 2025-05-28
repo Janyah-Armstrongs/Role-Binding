@@ -4,7 +4,7 @@ This Terraform project creates an IAM role that allows an EC2 instance to assume
 
 ## What It Does
 
-- **Creates an IAM Role** – A role called `ec2-basic-access-role` is created for EC2 to assume.
+- **Creates an IAM Role** – A role called `ec2-test-binding-access-role` is created for EC2 to assume.
 - **Adds a Policy** – The role is attached to a policy that allows read-only access to S3 (`s3:GetObject`).
 - **Outputs the Role ARN** – Once applied, Terraform will show the IAM Role's ARN for easy reference.
 
