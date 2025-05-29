@@ -1,6 +1,6 @@
 # IAM Role for EC2 with S3 Read Access
 
-This Terraform project creates an IAM role that allows an EC2 instance to assume it and read objects from Amazon S3.
+This Terraform project provisions an IAM role that can be assumed by an EC2 instance, granting it read-only access to objects in Amazon S3.
 
 ## What It Does
 
